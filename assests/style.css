@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif
+}
+
+
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+    url('../images/coffee-bg.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    height: 70vh; 
+    padding-top: 80px;
+}
+
+
+
+.hero h1{
+    font-size: 50px;
+    color: black;
+}
+
+.hero p{
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+.carousel{
+    margin-top: 40px;
+}
+
+.carousel-item img{
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 12px;
+}
+.card {
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    
+
+}
+.img{
+    height: 50px;
+}
+
+
+
+@media (max-width:768px){
+
+    .hero{
+        height: 55vh;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    .hero h1{
+        font-size: 30px;
+    }
+
+    .hero p{
+        font-size: 15px;
+    }
+
+    .carousel-item img{
+        height: 220px;
+    }
+}
+
+
+.btn-b {
+  background-color: orange; 
+  color:white;
+  border: none;
+}
+
+.btn-b:hover {
+  background-color: orange;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.white cofee.img {
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+.text-brown {
+  color: #6f4e37;
+}
+
+
+
+#special {
+  text-align: center;
+  margin: 40px 0;
+  color: #6f4e37;
+}
+
+
+
+table {
+  background: chocolate;
+}
+
+
+
+.list-group-item {
+  background-color: chocolate;
+}
+
+
+form {
+  max-width: 600px;
+  margin: 50px auto;
+  background: chocolate;
+  border-radius: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .hero {
+    height: auto;
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+}
+
