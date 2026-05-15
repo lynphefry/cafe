@@ -45,7 +45,7 @@ if (form) {
 }
 
 
-/* ===== 6. SHOW ORDERS (OPTIONAL FEATURE) ===== */
+
 function showOrders() {
     let orders = JSON.parse(localStorage.getItem("orders")) || [];
 
@@ -55,4 +55,6 @@ function showOrders() {
         alert("Your Orders:\n\n" + orders.join("\n"));
     }
 }
-
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
