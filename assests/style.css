@@ -169,4 +169,16 @@ form {
   }
 
 }
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #000 !important;
+}
+
+.dark-mode .hero {
+    background-color: #1e1e1e;
+}
 
